@@ -1,4 +1,3 @@
-const hello = () => "Hello World, I am Queenette from Nigeria";
+const hello = () => "Hello World from the Office Hours in the terminal!";
 console.log(hello());
-const _hello = hello;
-export { _hello as hello };
+exports.hello = hello;
